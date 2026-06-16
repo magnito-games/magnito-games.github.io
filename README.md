@@ -1,1 +1,5 @@
-# magnitogames.github.io
+# Magnito Games
+
+Official site for Magnito Games — a studio crafting playful mobile games for iOS & Android.
+
+Live at https://magnitogames.github.io
