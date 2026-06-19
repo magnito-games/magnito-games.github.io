@@ -34,12 +34,14 @@
   }
   .wrap { max-width: 1040px; margin: 0 auto; padding: 0 24px; }
 
-  /* floating squishy blobs in bg */
-  .blob { position: fixed; border-radius: 30% 70% 64% 36% / 40% 40% 60% 60%; opacity: .5; z-index: 0; filter: blur(2px); pointer-events: none; }
-  .blob.b1 { width: 180px; height: 180px; background: #DCD6F0; top: 12%; left: -60px; animation: float1 9s ease-in-out infinite; }
-  .blob.b2 { width: 120px; height: 120px; background: #F7E7B8; bottom: 14%; right: -30px; animation: float2 11s ease-in-out infinite; }
-  @keyframes float1 { 0%,100%{transform:translateY(0) rotate(0)} 50%{transform:translateY(28px) rotate(12deg)} }
-  @keyframes float2 { 0%,100%{transform:translateY(0) rotate(0)} 50%{transform:translateY(-24px) rotate(-10deg)} }
+  /* floating squishy blobs in bg (soft, balanced) */
+  .blob { position: fixed; z-index: 0; opacity: .38; filter: blur(9px); pointer-events: none; border-radius: 42% 58% 56% 44% / 48% 42% 58% 52%; }
+  .blob.b1 { width: 200px; height: 200px; background: #DCD6F0; top: 7%;  left: -70px;  animation: float1 11s ease-in-out 0s  infinite; }
+  .blob.b2 { width: 150px; height: 150px; background: #FFE08A; top: 16%; right: -55px; animation: float2 13s ease-in-out -3s infinite; }
+  .blob.b3 { width: 120px; height: 120px; background: #BFF0DC; top: 54%; left: -45px;  animation: float1 12s ease-in-out -5s infinite; }
+  .blob.b4 { width: 180px; height: 180px; background: #E7E0F7; bottom: 6%; right: -65px; animation: float2 14s ease-in-out -2s infinite; }
+  @keyframes float1 { 0%,100%{transform:translate(0,0) rotate(0)} 50%{transform:translate(10px,26px) rotate(7deg)} }
+  @keyframes float2 { 0%,100%{transform:translate(0,0) rotate(0)} 50%{transform:translate(-12px,-22px) rotate(-7deg)} }
 
   /* ---- header ---- */
   header { position: relative; z-index: 2; padding: 64px 0 40px; text-align: center; }
@@ -170,6 +172,8 @@
 <body>
   <div class="blob b1"></div>
   <div class="blob b2"></div>
+  <div class="blob b3"></div>
+  <div class="blob b4"></div>
 
   <header>
     <div class="wrap">
