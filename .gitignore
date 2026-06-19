@@ -61,6 +61,8 @@ yarn-error.log*
 .claude/
 .agents/
 .mcp.json
+AGENTS.md
+CLAUDE.md
 
 ########################
 # IMPORTANT: Keep these tracked (do NOT ignore)
