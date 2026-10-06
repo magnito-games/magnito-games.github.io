@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <title>Magnito Studio</title>
+  <rect width="512" height="512" fill="#5FE3B3"/>
+  <path d="M150 336V176L256 296L362 176V336" fill="none" stroke="#2E2A5C" stroke-width="108" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="118" y="194" width="64" height="22" rx="6" fill="#5FE3B3"/>
+  <rect x="139" y="173" width="22" height="64" rx="6" fill="#5FE3B3"/>
+  <rect x="332" y="175" width="26" height="26" rx="7" fill="#FFC01E"/>
+  <rect x="366" y="175" width="26" height="26" rx="7" fill="#F2706B"/>
+  <rect x="332" y="209" width="26" height="26" rx="7" fill="#4C8DF6"/>
+  <rect x="366" y="209" width="26" height="26" rx="7" fill="#FFFFFF"/>
+</svg>
