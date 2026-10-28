@@ -72,3 +72,6 @@ CLAUDE.md
 # README.md / CLAUDE.md   — project docs
 # .gitignore
 ########################
+
+# AI files (kept in ~/MagnitoHQ/ai, linked by tools/link-ai.sh)
+CLAUDE.local.md
