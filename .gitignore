@@ -56,22 +56,10 @@ yarn-error.log*
 !.env.example
 
 ########################
-# AI tooling (local only)
-########################
-.claude/
-.agents/
-.mcp.json
-AGENTS.md
-CLAUDE.md
-
-########################
 # IMPORTANT: Keep these tracked (do NOT ignore)
 ########################
 # index.html              — the site itself
 # google*.html            — Google Search Console verification
-# README.md / CLAUDE.md   — project docs
+# README.md               — project docs
 # .gitignore
 ########################
-
-# AI files (kept in ~/MagnitoHQ/ai, linked by tools/link-ai.sh)
-CLAUDE.local.md
